@@ -1,38 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio Teste para ReactJS - Lista Paginada
 
-## Getting Started
+Este repositório contém um projeto desenvolvido em ReactJS utilizando Next.js 13 e Chakra UI para criar uma tela que exibe uma lista paginada de dados. O desafio consiste em mostrar inicialmente os 25 primeiros registros e permitir que o usuário navegue pelas páginas para visualizar os registros adicionais.
 
-First, run the development server:
+## Instruções de Instalação
+
+Siga os passos abaixo para instalar e executar o projeto em modo de desenvolvimento:
+
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+
+2. Clone este repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/iuriaguiarr/estracta-test-reactjs.git
+```
+
+3. Acesse o diretório do projeto:
+
+```bash
+cd estracta-test-reactjs
+```
+
+4. Instale as dependências necessárias:
+
+```bash
+npm install
+```
+
+## Executando o Projeto em Modo de Desenvolvimento
+
+Após a instalação das dependências, execute o projeto em modo de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso iniciará o servidor de desenvolvimento e a aplicação estará disponível em `http://localhost:3000`.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Como Fazer o Build do Projeto
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Se desejar fazer o build do projeto para criar uma versão otimizada para produção, execute o seguinte comando:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Após a conclusão do build, você pode iniciar a aplicação com o seguinte comando:
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Considerações Finais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O projeto foi desenvolvido com base nos requisitos e funcionalidades extras especificados no desafio. A arquitetura do código foi pensada para ser limpa e modular, visando a manutenibilidade e escalabilidade.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
